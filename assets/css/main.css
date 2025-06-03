@@ -547,7 +547,7 @@
     padding-left: 0;
     list-style: none;
     /* view port height */
-    height: 56vh;
+    height: 40vh;
     overflow-y: auto;
 }
 
@@ -709,11 +709,10 @@
     border-radius: 2.5px;
     display: none;
     overflow: hidden;
-    z-index: 1;
 }
 
 .header__search-history-heading {
-    margin: 6px 12px;
+    margin: 6px 12px 0;
     font-size: 1.4rem;
     color: #999;
     font-weight: 400;
@@ -722,10 +721,12 @@
 .header__search-history-list {
     padding-left: 0;
     list-style: none;
+    margin-top: -1px;
+    margin-bottom: 10px;
 }
 
 .header__search-history-item {
-    height: 25px;
+    height: 20px;
     padding: 0 12px;
 }
 
@@ -919,7 +920,8 @@
 .home-filter {
     display: flex;
     align-items: center;
-    padding: 10px 22px;
+    padding: 18px 22px;
+    margin-bottom: 20px;
     border-radius: 2px;
     background-color: rgba(0, 0, 0, 0.05);
 }
@@ -1191,7 +1193,7 @@ i.home-product-item__like-icon-fill {
 }
 
 .app__content {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .pagination {

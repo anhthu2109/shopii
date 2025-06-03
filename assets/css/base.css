@@ -153,7 +153,6 @@ html {
 
 /* Selection */
 .select-input {
-    z-index: 1;
     position: relative;
     min-width: 200px;
     height: 34px;
@@ -184,10 +183,10 @@ html {
     position: absolute;
     left: 0;
     right: 0;
-    top: 25px;
+    top: 20px;
     border-radius: 2px;
     background-color: var(--white-color);
-    padding: 8px 16px;
+    padding: 2px 16px;
     list-style: none;
     display: none;
 }
